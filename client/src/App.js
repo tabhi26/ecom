@@ -4,7 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import AddOrder from './components/AddOrder';
+import AddProduct from './components/AddProduct';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           </Typography>
         </Toolbar>
       </AppBar>
-    <AddOrder />
+    <AddProduct />
     </>
   );
 }
